@@ -1,12 +1,12 @@
 {
-  "name": "yarn-berry-typescript-projects",
+  "name": "typescript-nestjs",
   "packageManager": "yarn@3.0.2",
   "version": "1.0.0",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "nest start",
+    "start": "nest start --watch",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
